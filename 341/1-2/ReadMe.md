@@ -1,0 +1,1 @@
+I tried to familiarize myself with some of the simple ways to make text do what you want in HTML. My friends were asking what my homework was and I demonstrated what I was doing with rap lyrics to entertain them then I didnt feel like doing it again. Thats the story of why there is a Gucci Mane quote on my homework.
