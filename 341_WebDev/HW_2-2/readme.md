@@ -1,0 +1,1 @@
+Doing this assignment really helped me grasp html concepts a lot better than before. While I had trouble with importing images and making the second page at first, once i realized it was really just folder organzization like on a computer it all made sense. After completing this I am a lot more confident in HTML overall
