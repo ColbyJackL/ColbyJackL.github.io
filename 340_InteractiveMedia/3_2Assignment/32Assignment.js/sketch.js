@@ -29,22 +29,25 @@ var area = {
   ellipse(i*10+xoffset , mouseY , 30 , 30);
  }
   
-  if (mouseIsPressed)
+  if (mouseIsPressed && mouseX > 500 && mouseX < 550 && mouseY > 350 && mouseY < 400){
     //fill(col.r,col.g,col.b);
     rect(500,0,500,700);
-  else
-    rectMode(CORNER)
+  } else {
+    rectMode(CORNER);
     rect(495, 0, 10, 1000);
+  }
 
   println(mouseIsPressed);
   //function mouseIsPressed()
  
  //rect(boxX, boxY, boxWidth, boxHeight);
  
- function mousePressed(){
-   boxWidth += 10
-   boxHeight += 10
- }
+ //function mousePressed(){
+   //boxWidth += 10
+   //boxHeight += 10
+ 
+ rect(500,350,50,50);
+ 
   
   
 }
