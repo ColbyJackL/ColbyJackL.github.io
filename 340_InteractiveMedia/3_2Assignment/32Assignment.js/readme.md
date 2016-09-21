@@ -1,0 +1,1 @@
+This assignment went about half good and half bad. The videos posted online help a lot but I still needed help in person to get my button working. I'm starting to feel more comfortable in JavaScript, definately an improvement over knowing absolutely nothing a couple weeks ago.
