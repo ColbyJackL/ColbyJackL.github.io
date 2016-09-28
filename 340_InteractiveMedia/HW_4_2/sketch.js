@@ -15,6 +15,7 @@ function draw() {
   bounce();
   display();
   icecone(250, 200, 200, 300, 400, 100);
+  icecone(500, 400, 100, 600, 500, 200);
 
 }
 //Customizable Ice Cream Cone Thing
