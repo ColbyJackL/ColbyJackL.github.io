@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'butlerlight';
+    src: url('Font/butler_light-webfont.woff2') format('woff2'), url('Font/butler_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: rgba(0, 0, 0, 0.99);
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.header {
+    color: lightsteelblue;
+    background-color: hsla(234, 25%, 45%, 0.99);
+    padding: 12px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 300%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif font-size: 4em;
+    /* Cant get this to change size at all!! */
+    color: #007b8b;
+    word-spacing: .1em;
+}
+
+h3 {
+    font-size: 2em;
+    color: #007b8b;
+}
+
+p {
+    /* Cant get this text size to change size at all, need bigger */
+    font-size: 30px line-height: 1.2em text-align: justify;
+    text-indent: 20px;
+}
+
+a:link {
+    color: #3261d9;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5f29fa;
+    font-style: italic; /*this wont work either*/
+}
+
+a:hover {
+    color: #669E90;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #7ac0e7;
+}
+
+p:first-letter {
+    font-size: 130%
+}
