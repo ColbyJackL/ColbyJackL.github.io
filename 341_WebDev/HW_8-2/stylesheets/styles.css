@@ -10,10 +10,13 @@ body {
     color: rgba(0, 0, 0, 0.99);
     opacity: 0.9;
     padding: 10px;
+
 }
 
 .content { /* cant get the pictures to have a border around them*/
   align-items: center;
+  flex-flow: wrap;
+  align-content: flex-start;
 }
 
 .header {
