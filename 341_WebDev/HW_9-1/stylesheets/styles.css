@@ -10,18 +10,22 @@ body {
     color: rgba(0, 0, 0, 0.99);
     opacity: 0.9;
     padding: 10px;
-
 }
 
 .content { /* cant get the pictures to have a border around them*/
   align-items: center;
+  display: flex;
   flex-flow: wrap;
-  align-content: flex-start;
+  text-align: center;
+}
+
+#image_one {
+  flex: 1 1 100%;
 }
 
 .header {
     color: lightgrey;
-    background-color: hsla(233, 15%, 22%, 0.99);
+    background-color: hsla(234, 25%, 45%, 0.99);
     padding: 10px;
     text-align: center;
 }
