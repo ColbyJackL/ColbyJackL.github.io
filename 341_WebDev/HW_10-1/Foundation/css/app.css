@@ -5,6 +5,7 @@ GENERAL
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
+  align-items: center;
 }
 
 
@@ -21,7 +22,7 @@ NAV
 HERO
 */
 .hero {
-  background-color: rgba(34, 108, 149, 0.35);
+  background-color: rgba(0, 210, 135, 0.25);
   padding: 20px 0px;
 
 
@@ -34,13 +35,23 @@ HERO
 MAIN SECTION
 */
 .main {
-
+  padding: 50px 0px;
 }
 
 
 /*
 FOOTER
 */
-.footer {
+footer {
+  padding: 50px 0px;
+  background-color: rgba(0, 210, 135, 0.25);
 
+}
+
+footer a {
+  display: block;
+}
+
+h5 {
+  /*Want to make the Header 5 bold*/
 }
