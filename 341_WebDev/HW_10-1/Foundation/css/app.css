@@ -9,10 +9,22 @@ GENERAL
     align-items: center;
 }
 
+.off-canvas {
+  background-color: rgb(50, 50, 50);
+}
 
 /*
 NAV MOBILE
 */
+.title-bar {
+  background-color: rgb(50, 50, 50);
+  height: 60px;
+  padding-top: 17px;
+}
+
+#mobile-menu {
+  background-color: inherit;
+}
 
 
 /*
@@ -72,8 +84,8 @@ HERO
 */
 
 .hero {
-    background-color: rgba(0, 210, 135, 0.25);
-    padding: 20px 0px;
+    background-color: rgba(0, 144, 214, 0.25);
+    padding: 30px 0px;
 }
 
 
