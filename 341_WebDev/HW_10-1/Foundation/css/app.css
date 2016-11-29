@@ -1,57 +1,107 @@
 /*
 GENERAL
 */
+
 .wrap {
-  width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
-  align-items: center;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 
+/*
+NAV MOBILE
+*/
+
 
 /*
-NAV
+NAV DESKTOP
 */
-.top-bar {
-  /* background-color: rgba(255, 255, 255, 0); */
+
+.nav-desktop {
+    background-color: rgb(50, 50, 50);
+}
+
+
+/*copied this class from Foundation to overwrite it. */
+
+.top-bar ul {
+    background-color: inherit;
+}
+
+.menu-text {
+    color: rgb(200, 200, 200);
+    line-height: normal;
+}
+
+.nav-desktop a {
+    color: rgb(200, 200, 200);
+    line-height: normal;
+
+    /*Cant Get this to Center vertically*/
+}
+
+.menu > li > a {
+  display: inline-block;
+    line-height: normal;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.top-bar-right {
+    color: inherit;
+    display: inline-block;
+}
+.top-bar-left {
+  display: inline-block;
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+    border-color: rgb(200, 200, 200) transparent transparent;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    right: 5px;
+    margin-top: -2px;
 }
 
 
 /*
 HERO
 */
+
 .hero {
-  background-color: rgba(0, 210, 135, 0.25);
-  padding: 20px 0px;
-
-
-
+    background-color: rgba(0, 210, 135, 0.25);
+    padding: 20px 0px;
 }
-
 
 
 /*
 MAIN SECTION
 */
+
 .main {
-  padding: 50px 0px;
+    padding: 50px 0px;
 }
 
 
 /*
 FOOTER
 */
-footer {
-  padding: 50px 0px;
-  background-color: rgba(0, 210, 135, 0.25);
 
+footer {
+    padding: 40px 0px;
+    background-color: rgb(50, 50, 50);
 }
 
 footer a {
-  display: block;
+    display: block;
+    color: rgb(200, 200, 200);
 }
 
 h5 {
-  /*Want to make the Header 5 bold*/
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    /*Want to make the Header 5 bold*/
 }

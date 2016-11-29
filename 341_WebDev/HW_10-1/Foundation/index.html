@@ -11,92 +11,134 @@
 </head>
 
 <body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-    <!-- DESKTOP NAVIGATION -->
-    <nav class="top-bar">
-        <div class="wrap">
-            <div class="top-bar-left">
-                <ul class="menu">
-                    <h3 class="menu-text">Colby Lorch</h3>
-            </div>
-            <div class="top-bar-right">
+          <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+<p> Menu </p>
+          </div>
 
-                <ul class="dropdown menu" data-dropdown-menu>
+<!-- MOBILE NAVIGATION -->
+<div class="off-canvas-content" data-off-canvas-content></div>
 
-                    <li><a href="/about/about.html">About</a></li>
-                    <li>
-                        <a href="#">Contact</a>
-                        <ul class="menu vertical">
-                            <li><a href="#">Email</a></li>
-                            <li><a href="http://soundcloud.com/dbcl">SoundCloud</a></li>
-                            <li><a href="#">Facebook</a></li>
+<div class="title-bar">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+    <span class="title-bar-title">Foundation</span>
+  </div>
+  <div class="title-bar-right">
+    <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+  </div>
+</div>   
+
+<!-- DESKTOP NAVIGATION -->
+            <nav class="top-bar nav-desktop">
+                <div class="wrap">
+                    <div class="top-bar-left">
+                        <ul class="menu menu-desktop">
+                            <h3 class="menu-text">Colby Lorch</h3>
+                    </div>
+                    <div class="top-bar-right">
+
+                        <ul class="dropdown menu" data-dropdown-menu>
+
+                            <li><a href="#">About</a></li>
+                            <li>
+                                <a href="#">Contact</a>
+                                <ul class="menu vertical">
+                                    <li><a href="#">Email</a></li>
+                                    <li><a href="http://soundcloud.com/dbcl">SoundCloud</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
-                </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- HERO SECTION -->
+            <section class="hero">
+                <div class="wrap">
+                    <h1>Welcome</h1>
+
+                    <img id="image_one" src="images/one.png" alt="91195 logo" width=500px height=500px />
+                </div>
+
+            </section>
+
+
+            <!-- MAIN SECTION -->
+            <section class="main">
+                <div class="row">
+                    <div class="small-12 columns medium-4 columns large-4 columns">
+
+
+
+                        <h4>PLANET HEMP</h4>
+                        <hr>
+                        <img id="pH Logo" src="images/CircleLogowide2.png" alt="Panet Hemp Logo" width=500px height=500px />
+
+
+
+
+                    </div>
+
+
+
+                    <div class="small-12 columns medium-4 columns large-4 columns">
+
+
+
+                        <h4>91195</h4>
+                        <hr>
+                        <img id="91195 logo" src="images/LogoNew.jpg" alt="91195 logo" width=500px height=500px />
+
+                    </div>
+
+
+
+
+
+                    <div class="small-12 columns medium-4 columns large-4 columns">
+                        <h4>OTHER</h4>
+                        <hr>
+                        <img id="DBCL logo" src="images/two.png" alt="91195 logo" width=500px height=500px />
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="wrap row small-up-1 medium-up-3">
+                    <div class="column">
+                        <h5>Social Media</h5>
+                        <hr>
+                        <a href="#">SoundCloud</a>
+                        <a href="#">Facebook</a>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="column">
+                        <h5>Contact</h5>
+                        <hr>
+                        <a href="#">Email</a>
+                        <a href="#">Phone</a>
+                    </div>
+
+            </footer>
+
             </div>
+          </div>
         </div>
-    </nav>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="wrap">
-            <h1>Welcome Bud</h1>
-            <p> Crucial </p>
-            <img id="image_one" src="images/one.png" alt="91195 logo" width=500px height=500px />
-        </div>
-
-    </section>
-
-
-    <!-- MAIN SECTION -->
-    <section class="main">
-        <div class="row">
-            <div class="small-12 columns medium-4 columns large-4 columns">
-                <h4>PLANET HEMP</h4>
-                <hr>
-                <img id="pH Logo" src="images/CircleLogowide2.png" alt="Panet Hemp Logo" width=500px height=500px />
-            </div>
-            <div class="small-12 columns medium-4 columns large-4 columns">
-                <h4>91195</h4>
-                <hr>
-                <img id="91195 logo" src="images/LogoNew.jpg" alt="91195 logo" width=500px height=500px />
-            </div>
-            <div class="small-12 columns medium-4 columns large-4 columns">
-                <h4>OTHER</h4>
-                <hr>
-                <img id="DBCL logo" src="images/two.png" alt="91195 logo" width=500px height=500px />
-            </div>
-        </div>
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="wrap row small-up-1 medium-up-3">
-            <div class="column">
-                <h5>Social Media</h5>
-                <hr>
-                <a href="#">SoundCloud</a>
-                <a href="#">Facebook</a>
-                <br>
-                <br>
-            </div>
-
-            <div class="column">
-                <h5>Contact</h5>
-                <hr>
-                <a href="#">Email</a>
-                <a href="#">Phone</a>
-            </div>
-
-    </footer>
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
 </body>
 
 </html>
