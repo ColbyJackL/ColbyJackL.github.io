@@ -4,3 +4,9 @@ If I can figure it out i want each of the three photos at the bottom to open up 
 I also want to make a very simple about me page with a paragraph about me, my education, and my skills. This page will be very short and may not even require the user to scroll.
 
 Overall I have a good outline I just need to get into it more and refine some parts so that they are working the way that I want.
+
+
+--Update After Thanksgiving Break--
+
+I was able to make a lot of progress over break. I was able to get all of the colors and links in the places I wanted them for the most part. 
+I am having trouble making my desktop main menu disappear at a certain widthso that it disappears when the mobile menu comes in. I am also having trouble recoloring the mobile menu background. When I tried to use the "off-screen-wrapper" div to edit the background it changed the colors on my entire site for some reason. 
