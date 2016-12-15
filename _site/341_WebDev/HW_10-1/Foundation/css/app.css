@@ -1,0 +1,131 @@
+/*
+GENERAL
+*/
+
+.wrap {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+/*
+NAV DESKTOP
+*/
+
+.nav-desktop {
+    background-color: rgb(50, 50, 50);
+}
+
+
+/*copied this class from Foundation to overwrite it. */
+
+.top-bar ul {
+    background-color: inherit;
+}
+
+
+.menu-text {
+    color: rgb(200, 200, 200);
+    /*line-height: normal;*/
+}
+
+.nav-desktop a {
+    color: rgb(200, 200, 200);
+    /*line-height: normal;*/
+
+
+    /*Cant Get this to Center vertically*/
+}
+
+.menu > li > a {
+  display: inline-block;
+    line-height: normal;
+    margin: 10px;
+    /*padding-top: 10;*/
+    /*padding-bottom: 0;*/
+}
+.is-submenu-item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-bar-right {
+    color: inherit;
+    display: inline-block;
+}
+.top-bar-left {
+  display: inline-block;
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+    border-color: rgb(200, 200, 200) transparent transparent;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    right: 5px;
+    margin-top: -2px;
+}
+
+
+
+/*
+NAV MOBILE
+*/
+.title-bar {
+  background-color: rgb(50, 50, 50);
+  height: 60px;
+  padding-top: 17px;
+}
+
+.side-mobile-menu {
+  background-color: rgb(50, 50, 50);
+}
+
+#mobile-menu li, a {
+  color: rgb(255, 0, 0);
+  padding-top: 2px;
+  padding-left: 5px;
+  list-style-type: none;
+
+}
+
+/*
+HERO
+*/
+
+.hero {
+    background-color: rgb(185, 219, 240);
+    padding: 30px 0px;
+}
+
+
+/*
+MAIN SECTION
+*/
+
+.main {
+    padding: 50px 0px;
+}
+
+
+/*
+FOOTER
+*/
+
+footer {
+    padding: 40px 0px;
+    background-color: rgb(50, 50, 50);
+}
+
+footer a {
+    display: block;
+    color: rgb(200, 200, 200);
+}
+
+h5 {
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    /*Want to make the Header 5 bold*/
+}

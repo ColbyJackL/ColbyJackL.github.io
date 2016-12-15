@@ -5840,6 +5840,10 @@ NAV DESKTOP
 /*
 NAV MOBILE
 */
+.title-bar-title {
+  color: #c8c8c8;
+}
+
 .title-bar {
   background-color: #323232;
   height: 60px;
