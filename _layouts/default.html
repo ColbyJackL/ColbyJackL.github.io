@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+
+    <div class="off-canvas-wrapper side-mobile-menu">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-left side-mobile-menu sid-nav" id="mobile-menu" data-off-canvas>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </div>
+
+        <!-- MOBILE NAVIGATION -->
+        <div class="off-canvas-content" data-off-canvas-content></div>
+
+        <div class="title-bar show-for-small-only">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="mobile-menu"></button>
+            <span class="title-bar-title">Colby Lorch</span>
+          </div>
+        </div>
+
+        <!-- DESKTOP NAVIGATION -->
+        <nav class="top-bar nav-desktop hide-for-small-only">
+          <div class="wrap">
+            <div class="top-bar-left">
+              <ul class="menu menu-desktop">
+                <a href="{{site.baseurl}}/">
+                  <h3 class="menu-text">Colby Lorch</h3>
+                </a>
+              </div>
+              <div class="top-bar-right">
+
+                <ul class="dropdown menu" data-dropdown-menu>
+
+                  <li><a href="/about/">About</a></li>
+                  <li>
+                    <a href="#">Contact</a>
+                    <ul class="menu vertical bg-grey">
+                      <li><a href="#">Email</a></li>
+                      <li><a href="http://soundcloud.com/dbcl">SoundCloud</a></li>
+                      <li><a href="#">Facebook</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        {{ content }}
+
+
+        <!-- FOOTER -->
+        <footer>
+          <div class="wrap row small-up-1 medium-up-3">
+            <div class="column">
+              <h5>Social Media</h5>
+              <hr>
+              <a href="#">SoundCloud</a>
+              <a href="#">Facebook</a>
+              <br>
+              <br>
+            </div>
+
+            <div class="column">
+              <h5>Contact</h5>
+              <hr>
+              <a href="#">Email</a>
+              <a href="#">Phone</a>
+            </div>
+          </div>
+
+        </footer>
+
+      </div>
+    </div>
+  </div>
+
+
+
+    {% include analytics.html %}
+
+<script src="{{site.baseurl}}/js/vendor/jquery.js"></script>
+<script src="{{site.baseurl}}/js/vendor/what-input.js"></script>
+<script src="{{site.baseurl}}/js/vendor/foundation.js"></script>
+<script src="{{site.baseurl}}/js/app.js"></script>
+</body>
+
+</html>

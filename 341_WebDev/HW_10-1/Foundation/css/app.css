@@ -9,22 +9,6 @@ GENERAL
     align-items: center;
 }
 
-.off-canvas {
-  background-color: rgb(50, 50, 50);
-}
-
-/*
-NAV MOBILE
-*/
-.title-bar {
-  background-color: rgb(50, 50, 50);
-  height: 60px;
-  padding-top: 17px;
-}
-
-#mobile-menu {
-  background-color: inherit;
-}
 
 
 /*
@@ -42,14 +26,16 @@ NAV DESKTOP
     background-color: inherit;
 }
 
+
 .menu-text {
     color: rgb(200, 200, 200);
-    line-height: normal;
+    /*line-height: normal;*/
 }
 
 .nav-desktop a {
     color: rgb(200, 200, 200);
-    line-height: normal;
+    /*line-height: normal;*/
+
 
     /*Cant Get this to Center vertically*/
 }
@@ -57,9 +43,13 @@ NAV DESKTOP
 .menu > li > a {
   display: inline-block;
     line-height: normal;
-    padding-top: 0;
-    padding-bottom: 0;
-
+    margin: 10px;
+    /*padding-top: 10;*/
+    /*padding-bottom: 0;*/
+}
+.is-submenu-item {
+  margin: 0px;
+  padding: 0px;
 }
 
 .top-bar-right {
@@ -79,12 +69,34 @@ NAV DESKTOP
 }
 
 
+
+/*
+NAV MOBILE
+*/
+.title-bar {
+  background-color: rgb(50, 50, 50);
+  height: 60px;
+  padding-top: 17px;
+}
+
+.side-mobile-menu {
+  background-color: rgb(50, 50, 50);
+}
+
+#mobile-menu li, a {
+  color: rgb(255, 0, 0);
+  padding-top: 2px;
+  padding-left: 5px;
+  list-style-type: none;
+
+}
+
 /*
 HERO
 */
 
 .hero {
-    background-color: rgba(0, 144, 214, 0.25);
+    background-color: rgb(185, 219, 240);
     padding: 30px 0px;
 }
 
