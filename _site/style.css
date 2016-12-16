@@ -5855,8 +5855,10 @@ NAV MOBILE
 }
 
 #mobile-menu li, a {
-  padding-top: 2px;
-  padding-left: 5px;
+  color: #c8c8c8;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
   list-style-type: none;
 }
 
@@ -5876,8 +5878,16 @@ MAIN SECTION
 */
 .main {
   background-color: #b9dbf0;
-  padding: 50px 0px;
+  padding: 50px 1em;
   color: #323232;
+}
+
+img {
+  padding: 1em;
+}
+
+#image_one {
+  padding: 0;
 }
 
 /*

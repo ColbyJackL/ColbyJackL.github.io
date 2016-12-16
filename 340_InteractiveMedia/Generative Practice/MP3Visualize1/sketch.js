@@ -19,11 +19,12 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(256, 256);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
   angleMode(DEGREES);
   button = createButton('Toggle');
   button.mousePressed(toggleSong);
+  button.position(width-220, height-height);
   song.play();
   fft = new p5.FFT(0.9, 64);
   w = width/64
@@ -32,11 +33,12 @@ function setup() {
 function draw() {
   background(0);
   var spectrum = fft.analyze();
-  console.log(spectrum);
+  // console.log(spectrum);
   stroke(255);
+  translate()
   // noStroke();
   // translate(width / 2, height / 2);
-  //beginShape();
+  beginShape();
   for (var i = 0; i < spectrum.length; i++) {
     // var amp = map(i, 0, spectrum.length, 0, 360);
     var amp = spectrum[i];
@@ -49,13 +51,13 @@ function draw() {
 
 
     stroke(i, 0, 0);
-    fill();
+    // fill();
     // line(0, 0, x, y);
     // vertex(x, y);
     //var y = map(amp, 0, 256, height, 0);
     //rect(i * w, y, w - 2, height - y);
   }
-  // endShape();
+  endShape();
 
 
 }

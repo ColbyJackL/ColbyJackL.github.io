@@ -1,0 +1,31 @@
+
+
+button {
+    font-size: 30px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(200,200,200);
+    background-color: rgba(0, 0, 0, 0);
+    /*box-sizing: content-box;*/
+    /*padding: 2px 6px 3px;*/
+    border-width: 0px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    /*color: initial;*/
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    padding: 2em 2em 2em 2em;
+    font: 3em ;
+}
