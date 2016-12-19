@@ -7,4 +7,8 @@ I also wish that I was able to make the entire thing resive with the window so t
  
 
 [Video](https://youtu.be/0ku4nvb8phg)
+note that quicktime did not record sound for the video so you can not hear the song playing. You shouldnt need this video though because the link has worked on every computer and browser Ive tried it on so far.
+
+
+
  [PDF](https://github.com/ColbyJackL/ColbyJackL.github.io/blob/master/340_InteractiveMedia/Generative_Practice/MP3Visualize1/340FinalPaper.pdf).
