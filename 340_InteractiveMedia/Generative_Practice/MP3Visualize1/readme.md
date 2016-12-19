@@ -6,5 +6,5 @@ I also wish that I was able to make the entire thing resive with the window so t
 
  
 
-[Video](#)
+[Video](https://youtu.be/0ku4nvb8phg)
  [PDF](https://github.com/ColbyJackL/ColbyJackL.github.io/blob/master/340_InteractiveMedia/Generative_Practice/MP3Visualize1/340FinalPaper.pdf).
