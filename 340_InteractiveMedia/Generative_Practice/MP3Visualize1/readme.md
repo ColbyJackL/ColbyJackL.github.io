@@ -6,5 +6,5 @@ I also wish that I was able to make the entire thing resive with the window so t
 
  
 
-[The video](https://www.youtube.com/watch?v=AZsyauOpVm0&feature=youtu.be)
-PDF [found here](https://github.com/StephenRound/StephenRound.github.io/blob/master/RoundFinal/Round_ProgramFinal.pdf).
+[The video](#)
+ [PDF](https://github.com/ColbyJackL/ColbyJackL.github.io/blob/master/340_InteractiveMedia/Generative_Practice/MP3Visualize1/340FinalPaper.pdf).
